@@ -1,0 +1,46 @@
+div.navbarContainer {
+    width: 100%;
+    height: calc(64 * var(--unit));
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--mono100);
+    z-index: 100;
+ }
+ 
+ div.navbarWrapper {
+    width: calc(1312 * var(--unit));
+    height: calc(64 * var(--unit));
+    display: flex;
+    align-items: center;
+ }
+ 
+ a.navbarLogo {
+    width: calc(76.8 * var(--unit));
+    height: calc(32 * var(--unit));
+    background: url("../asset/icon-color.svg") no-repeat;
+    background-size: cover;
+ }
+ 
+ div.navbarLinkContainer {
+    width: auto;
+    height: calc(48 * var(--unit));
+    margin: auto 0 auto auto;
+    display: flex;
+    gap: calc(64 * var(--unit));
+ }
+ 
+ a.navbarLink {
+    width: auto;
+    height: calc(48 * var(--unit));
+    display: flex;
+    align-items: center;
+    font: 400 calc(16 * var(--unit)) 'Plus Jakarta Sans';
+    color: var(--mono800);
+    text-decoration: none;
+ }
+ a.navbarLink:hover{
+    text-decoration: underline;
+ }

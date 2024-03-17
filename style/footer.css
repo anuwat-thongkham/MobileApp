@@ -1,0 +1,59 @@
+div.footerSection {
+    width: 100%;
+    height: calc(224 * var(--unit));
+    background: var(--primaryVariant);
+}
+
+div.footerWrapper {
+    width: calc(1312 * var(--unit));
+    height: 100%;
+    margin: 0 auto;
+}
+
+div.footerPrimaryContainer {
+    width: calc(1312 * var(--unit));
+    height: calc(160 * var(--unit));
+    display: flex;
+}
+
+a.footerLogo{
+    width: calc(153.6 * var(--unit));
+    height: calc(64 * var(--unit));
+    margin: calc(32 * var(--unit)) 0 0 0;
+    background: url("../asset/icon-white.svg") no-repeat center;
+    background-size: cover;
+    display: block;
+}
+div.footerSecondaryContainer {
+    width: calc(1312 * var(--unit));
+    height: calc(64 * var(--unit));
+    border-top: calc(1 * var(--unit)) solid var(--mono100);
+    display: flex;
+    align-items: center;
+}
+
+div.footerCoppyRight {
+    width: auto;
+    height: calc(48 * var(--unit));
+    font:400 calc(16 * var(--unit)) 'Plus Jakarta Sans';
+    color:var(--mono100);
+    display: flex;
+    align-items: center;
+}
+
+div.socailMediaContainer {
+    width: auto;
+    height: calc(32 * var(--unit));
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: calc(16 * var(--unit));
+}
+
+a.socialMedia {
+    width: calc(32 * var(--unit));
+    height: calc(32 * var(--unit));
+    border-radius: calc(16 * var(--unit));
+    display: block;
+    background: var(--mono100);
+}
